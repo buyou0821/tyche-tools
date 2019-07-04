@@ -1,0 +1,35 @@
+{
+  "name": "tyche-tools",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "tyche-tools": "bin/tyche-tools.js",
+    "tyche-tools-run": "bin/tyche-tools-run.js"
+  },
+  "scripts": {
+    "gulp": "gulp -f gulpfile.ts compile"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "autoprefixer": "^9.6.0",
+    "commander": "^2.20.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "prettier": "^1.18.2",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {}
+}
