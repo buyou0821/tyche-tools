@@ -29,7 +29,9 @@
     "gulp-rename": "^1.4.0",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
     "prettier": "^1.18.2",
-    "rimraf": "^2.6.3"
+    "rimraf": "^2.6.3",
+    "typescript": "^3.5.2"
   }
 }
