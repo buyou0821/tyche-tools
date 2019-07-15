@@ -10,7 +10,6 @@
   "scripts": {
     "gulp": "gulp -f gulpfile.ts compile"
   },
-  "devDependencies": {},
   "dependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
